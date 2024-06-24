@@ -25,6 +25,6 @@ int special_pythagorean_triplet(){
 int main(void){
 	
 	std::cout<<special_pythagorean_triplet()<<std::endl;
-
+	//31875000
 	return 0;
 }
