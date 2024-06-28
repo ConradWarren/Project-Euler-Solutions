@@ -18,7 +18,7 @@ void Sieve_of_Eratosthenes(int upper_bound, std::vector<bool>& sieve){
 		
 		if(!sieve[i]) continue;
 		
-		for(int j = i * 2; j <= upper_bound; j += i){
+		for(long long j = (long long)i * i; j <= upper_bound; j += i){
 			sieve[j] = false;
 		}
 	}
